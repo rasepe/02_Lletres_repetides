@@ -15,9 +15,7 @@ Fes un bucle que recorri aquesta taula i mostri per consola cadascuna de les lle
 		
 		for (int i=0; i<nom.length; i++) {
 			System.out.print(nom[i]);
-		}
-		
-		
+		}				
 		
 	}
 }
