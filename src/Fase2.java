@@ -1,4 +1,6 @@
-import java.util.*; 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 /*Canvia la taula per una llista (List<Character>)
 Al bucle, si la lletra és una vocal imprimeix a la consola: ‘VOCAL’. Sinó, imprimeix: ‘CONSONTANT’.
