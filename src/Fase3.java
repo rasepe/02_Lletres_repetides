@@ -48,7 +48,7 @@ public class Fase3 {
 			System.out.println("LINKEDHASHMAP:");
 			while(itmap.hasNext()){
 				Character caracter = (Character) itmap.next();
-				System.out.println(caracter + " " + lletres.get(caracter));
+				System.out.println(caracter + ", " + lletres.get(caracter) + " vegades");
 
 			}
 
