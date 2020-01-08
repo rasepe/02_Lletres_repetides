@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fase 3</title>
+</head>
+<body>
+<script>
+/*Emmagatzemar en un Map tant les lletres de la llista com el nombre de vegades que apareixen
+ */
+ var nom = [ 'R', 'A', 'F', 'A', 'E', 'L' ];
+ 
+ var pos = 0;
+
+ var caract;
+ 
+ var ocurrencies;
+ 
+ var miMapa = new Map();
+ 
+ for (var i = 0; i < nom.length; i++) {
+	    caract = nom[i];
+	    pos++;
+	    ocurrencies = 0;
+		for (var j=0 ; j<pos ; j++) {
+			if (caract == nom[j]) {
+				ocurrencies++;
+			}
+		} 
+		 miMapa.set(caract, ocurrencies);
+ }
+ 
+ for (var [clave, valor] of miMapa.entries()) {
+	 document.write(clave + ", " + valor + " vegades<br>");
+	}
+</script>
+</body>
+</html>

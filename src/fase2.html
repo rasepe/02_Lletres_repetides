@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fase 2</title>
+</head>
+<body>
+	<script>
+		/*Canvia la taula per una llista (List<Character>)
+		 Al bucle, si la lletra és una vocal imprimeix a la consola: ‘VOCAL’. Sinó, imprimeix: ‘CONSONTANT’.
+		 Si trobes un numero, mostra per pantalla: ‘Els noms de persones no contenen números!’.
+		 */
+		var nom = [ 'R', 'A', 'F', 'A', 'E', 'L' ];
+
+		for (var i = 0; i < nom.length; i++) {
+			if (typeof nom[i] == 'number') {
+				document
+						.write("Els noms de persones no contenen números! <br>");
+			} else if (nom[i] == 'A' || nom[i] == 'E' || nom[i] == 'I'
+					|| nom[i] == 'O' || nom[i] == 'U') {
+				document.write("VOCAL <br>");
+			} else {
+				document.write("CONSONANT <br>");
+			}
+		}
+	</script>
+</body>
+</html>
