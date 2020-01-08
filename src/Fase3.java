@@ -19,18 +19,14 @@ public class Fase3 {
 		nom.add(3, 'A');
 		nom.add(4, 'E');
 		nom.add(5, 'L');
-		//nom.add(6, 'L');
-		//nom.add(7, 'A');
 		
 		Iterator<Character> it = nom.iterator();
         
 		int pos = 0;
 		
-		//System.out.println("ARRAYLIST:");
 		while (it.hasNext()) { 
 
 			char caract =it.next();
-			//System.out.println(caract);
 			pos++;
 			
 			int ocurrencies = 0; 
@@ -45,7 +41,7 @@ public class Fase3 {
 		}
 
 			Iterator itmap = lletres.keySet().iterator();
-			//System.out.println("LINKEDHASHMAP:");
+
 			while(itmap.hasNext()){
 				Character caracter = (Character) itmap.next();
 				System.out.println(caracter + ", " + lletres.get(caracter) + " vegades");

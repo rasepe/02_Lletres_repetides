@@ -13,7 +13,7 @@ public class Fase2 {
 		nom.add(3, 'A');
 		nom.add(4, 'E');
 		nom.add(5, 'L');
-	    //nom.add(6, '8');
+
 
 		Iterator<Character> it = nom.iterator();
 
